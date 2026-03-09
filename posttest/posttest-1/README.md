@@ -21,18 +21,33 @@ Sistem ini memiliki menu utama sebagai berikut:
 * `7. Ubah Pelanggan` : Memperbarui informasi data pelanggan (bisa mengubah Nama Usaha atau Alamat).
 * `8. Hapus Pelanggan` : Menghapus data pelanggan dari sistem.
 
-**Lainnya**
-* `0. Keluar` : Mengakhiri dan menutup program.
-
 ## Struktur File dan Penjelasan Kode
-Proyek ini menerapkan konsep *Object-Oriented Programming* (OOP) dasar seperti *Encapsulation* dan dibagi menjadi 3 kelas utama:
+Proyek ini dibagi menjadi 3 kelas utama:
 
-1. **`Daging.java` (Kelas Model)**
-   Berfungsi untuk merepresentasikan objek Daging. Kelas ini menyimpan properti dengan hak akses *private* (`kodeDaging`, `jenisDaging`, `harga`, `stok`) untuk menjaga keamanan data, serta menyediakan metode *getter* dan *setter* untuk mengakses dan mengubah nilai properti tersebut.
-2. **`Pelanggan.java` (Kelas Model)**
-   Berfungsi untuk merepresentasikan objek Pelanggan. Menyimpan properti dengan hak akses *private* (`idPelanggan`, `namaUsaha`, `alamat`) serta menyediakan metode *getter* dan *setter*.
-3. **`main.java` (Kelas Utama/Driver Class)**
-   Merupakan inti tempat berjalannya program. Kelas ini memuat antarmuka menu interaktif menggunakan `Scanner` untuk menerima *input* dari pengguna. Logika *looping* (while) dan percabangan (switch-case) digunakan di sini untuk mengeksekusi aksi CRUD terhadap `ArrayList<Daging>` dan `ArrayList<Pelanggan>`.
+**1. `Daging.java`**
+
+| Atribut | Tipe | Keterangan |
+| :--- | :--- | :--- |
+| `kodeDaging` | `String` | Kode unik pendataan daging |
+| `jenisDaging` | `String` | Nama atau jenis daging yang dijual |
+| `harga` | `double` | Harga daging per kilogram |
+| `stok` | `int` | Jumlah stok daging yang tersedia (dalam kg) |
+
+<br>
+
+**2. `Pelanggan.java`**
+
+| Atribut | Tipe | Keterangan |
+| :--- | :--- | :--- |
+| `idPelanggan` | `String` | ID unik pelanggan atau restoran |
+| `namaUsaha` | `String` | Nama usaha atau nama restoran pelanggan |
+| `alamat` | `String` | Alamat lengkap dari pelanggan |
+
+<br>
+
+**3. `main.java`**
+
+Merupakan kelas utama yang menjadi inti tempat berjalannya program.
 
 ## Prasyarat
 Pastikan Java Development Kit (JDK) telah terinstal pada sistem komputer Anda untuk dapat mengompilasi dan menjalankan program ini.
@@ -40,6 +55,8 @@ Pastikan Java Development Kit (JDK) telah terinstal pada sistem komputer Anda un
 ## Cara Menjalankan Program
 1. Buka *Terminal* atau *Command Prompt*.
 2. Navigasikan ke direktori folder tempat kode program ini disimpan.
-3. Lakukan kompilasi seluruh file Java dengan menjalankan perintah berikut:
-   ```bash
-   javac main.java Daging.java Pelanggan.java
+3. Lakukan kompilasi program java.
+
+## Output kode
+1. Menu awal
+   [output menu](asset/menu.png)
