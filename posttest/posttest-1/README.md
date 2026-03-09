@@ -59,4 +59,22 @@ Pastikan Java Development Kit (JDK) telah terinstal pada sistem komputer Anda un
 
 ## Output kode
 1. Menu awal
-   [output menu](asset/menu.png)
+   
+   ![output menu](asset/menu.png)
+
+2. Menu Tambah
+
+   ![output menu](asset/tambah.png)
+
+3. Menu Edit
+
+   ![output menu](asset/edit.png)
+
+4. Menu Hapus
+
+   ![output menu](asset/hapus.png)
+
+5. Menu Lihat
+
+   ![output menu](asset/lihat.png)
+   
