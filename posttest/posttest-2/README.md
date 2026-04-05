@@ -96,13 +96,34 @@ Mewarisi kelas `Pegawai`.
 
 **7. `Main.java`**
 
-Merupakan kelas utama yang menjadi titik awal eksekusi program (*entry point*). Kode ini memanfaatkan fitur Java 21+ *Implicitly Declared Class* (fungsi `void main()`) sehingga tidak memerlukan deklarasi kelas secara eksplisit. Kelas ini mengelola operasi CRUD menggunakan `ArrayList`.
+Merupakan kelas utama yang menjadi titik awal eksekusi program.
 
 ## Prasyarat
-Pastikan Java Development Kit (JDK) versi 21 atau yang lebih baru telah terinstal pada sistem komputer Anda, mengingat program ini menggunakan sintaks penulisan `void main()`.
+Pastikan Java Development Kit (JDK) telah terinstal pada sistem komputer Anda untuk dapat mengompilasi dan menjalankan program ini.
 
 ## Cara Menjalankan Program
 1. Buka *Terminal* atau *Command Prompt*.
-2. Navigasikan ke direktori `src/main/java` pada proyek Anda.
-3. Lakukan kompilasi file utama.
-4. Jalankan program.
+2. Navigasikan ke direktori folder tempat kode program ini disimpan.
+3. Lakukan kompilasi program java.
+
+## Output kode
+1. Menu awal
+   
+   ![output menu](asset/menu.png)
+
+2. Menu Tambah
+
+   ![output menu](asset/tambah.png)
+
+3. Menu Edit
+
+   ![output menu](asset/edit.png)
+
+4. Menu Hapus
+
+   ![output menu](asset/hapus.png)
+
+5. Menu Lihat
+
+   ![output menu](asset/lihat.png)
+   
