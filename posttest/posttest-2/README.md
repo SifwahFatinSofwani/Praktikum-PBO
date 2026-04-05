@@ -108,10 +108,10 @@ Pastikan Java Development Kit (JDK) telah terinstal pada sistem komputer Anda un
 
 ## Output kode
 1. Menu awal
-   
+
    ![output menu](asset/menu.png)
 
-2. Menu Tambah
+2.  Menu Tambah
 
    ![output menu](asset/tambah.png)
 
